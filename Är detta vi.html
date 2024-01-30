@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Till min favorit kattl</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="images/catflower.jpg"></img>
+            <h1 class="hh" id="name">Hej sötis!!</h1>
+            <p class="pp" id="question">Är detta vi???</p>
+            <div class="buttons">
+                <button id="No-button" onclick="showMessage('Nej')">No</button>
+                <button onclick="showMessage('JA!!!!')" id="YesButton">Yes</button>
+            </div>
+            <div class="hidden-message" id="No-message">
+                <p>Fel svar!!</p>
+            </div>
+            <div class="hidden-message" id="Yes-message">
+                <p>YAY!!!!</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
